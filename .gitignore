@@ -1,0 +1,15 @@
+# Ignore temporary Excel and Office files
+~$*.xls*
+*.tmp
+*.bak
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# If you later add Python scripts or Jupyter notebooks
+__pycache__/
+.env/
+.venv/
+*.ipynb_checkpoints/
